@@ -34,13 +34,10 @@ function loadSong(id) {
 
 function updateDetail(song) {
     document.getElementById('current-play-title').innerHTML = 'Current playing: ' + song.name + " - " + song.singer;
-    document.title = song.name + ' || Song I Like';
-    document.querySelector('meta[property="og:title"]').content = song.name + ' || Song I Like';
-    document.querySelector('meta[property="og:description"]').content = song.description + ' || Song I Like';
-    document.querySelector('meta[property="og:image"]').content = song.thumbnail;
     var player = document.getElementById('my-mp3');
     player.src = song.link;
     player.play();
+    shareOverrideOGMeta('https://tooeasy2get2points.herokuapp.com/song-detail.html?id=' + song.id, song.name + ' || Song I Like', song.description, song.thumbnail);
 }
 
 
