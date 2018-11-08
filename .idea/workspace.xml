@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf21fab1-5638-42b4-8dc9-13ff3754b203" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/js/song-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song-detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/song-detail.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="song-detail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="song-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="207">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="song-detail.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="song-detail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/song-detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="39" column="164" selection-start-line="39" selection-start-column="164" selection-end-line="39" selection-end-column="164" />
+            <state relative-caret-position="315">
+              <caret line="48" column="180" selection-start-line="48" selection-start-column="180" selection-end-line="48" selection-end-column="180" />
             </state>
           </provider>
         </entry>
@@ -101,8 +100,8 @@
         <option value="$PROJECT_DIR$/js/list-song.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/my-song.js" />
-        <option value="$PROJECT_DIR$/js/song-detail.js" />
         <option value="$PROJECT_DIR$/song-detail.html" />
+        <option value="$PROJECT_DIR$/js/song-detail.js" />
       </list>
     </option>
   </component>
@@ -181,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541663243981</updated>
-      <workItem from="1541663245312" duration="7147000" />
+      <workItem from="1541663245312" duration="7592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7147000" />
+    <option name="totallyTimeSpent" value="7592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1440" height="806" extended-state="0" />
@@ -312,17 +311,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/song-detail.js">
+    <entry file="file://$PROJECT_DIR$/song-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="39" column="164" selection-start-line="39" selection-start-column="164" selection-end-line="39" selection-end-column="164" />
+        <state relative-caret-position="207">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song-detail.html">
+    <entry file="file://$PROJECT_DIR$/js/song-detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="315">
+          <caret line="48" column="180" selection-start-line="48" selection-start-column="180" selection-end-line="48" selection-end-column="180" />
         </state>
       </provider>
     </entry>

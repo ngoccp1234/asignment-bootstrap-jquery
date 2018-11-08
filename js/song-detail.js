@@ -1,4 +1,5 @@
 var MY_API = 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs/detail';
+var currentSong;
 document.addEventListener('DOMContentLoaded', function () {
     var url = new URL(window.location.href);
     var id = url.searchParams.get("id");
@@ -21,6 +22,7 @@ function loadSong(id) {
             content += '<div class="song-infor">';
             content += '<div class="song-name">' + song.name + '</div>';
             content += '<div class="song-singer">' + song.singer + '</div>';
+            content += '<div class="song-control" onclick="shareSong();">Share</div>';
             content += '</div>';
             content += '</div>';
 
@@ -37,7 +39,14 @@ function updateDetail(song) {
     var player = document.getElementById('my-mp3');
     player.src = song.link;
     player.play();
-    shareOverrideOGMeta('https://tooeasy2get2points.herokuapp.com/song-detail.html?id=' + song.id, song.name + ' || Song I Like', song.description, song.thumbnail);
+    currentSong = song;
+}
+
+function shareSong() {
+    if(currentSong == null){
+        return;
+    }
+    shareOverrideOGMeta('https://tooeasy2get2points.herokuapp.com/song-detail.html?id=' + currentSong.id, currentSong.name + ' || Song I Like', currentSong.description, currentSong.thumbnail);
 }
 
 
