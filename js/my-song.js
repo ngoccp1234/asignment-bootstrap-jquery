@@ -20,6 +20,7 @@ function loadSongs() {
                 content += '<div class="song-singer">' + listSong[i].singer + '</div>';
                 content += '</div>';
                 content += '<div class="song-control" onclick="playSong(\'' + listSong[i].link + '\', \'' + listSong[i].name + '\', \'' + listSong[i].singer + '\')">Play</div>';
+                content += '<div class="song-control"><a href="song-detail.html?id=' + listSong[i].id + '">Detail</a></div>';
                 content += '</div>';
             }
             document.getElementById('list-song').innerHTML = content;
