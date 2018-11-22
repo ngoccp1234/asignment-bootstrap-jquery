@@ -1,3 +1,7 @@
+function playSong(link, name, singer) {
+    $('#my-mp3').attr('src',link);
+    $('#current-play-title').html('Current playing: ' + name + ' - ' + singer);
+}
 $.ajax({
     url: LIST_SONG_API,
     type: 'GET',
